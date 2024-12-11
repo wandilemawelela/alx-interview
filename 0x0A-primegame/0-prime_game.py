@@ -5,6 +5,9 @@ This is the Prime Game module
 
 
 def isWinner(x, nums):
+    """
+    Computes the winner
+    """
     if x == 0 or not nums:
         return None
 
